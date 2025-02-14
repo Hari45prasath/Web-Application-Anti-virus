@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn More - Threat Remedy</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            background: linear-gradient(13deg, #2E3192 100%, transparent 50%) right, linear-gradient(22deg, #F56B2A 100%, transparent 50%) left;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+        }
+        /* Adding a curved section with clip-path */
+        
+        .curved-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #7b2af5;
+            clip-path: ellipse(50% 70% at 50% 30%);
+            z-index: 0;
+        }
+        
+        .content {
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(23, 36, 17, 0.9);
+            box-shadow: 0px 0px 15px rgba(128, 105, 105, 0.5);
+            box-sizing: border-box;
+            z-index: 1;
+            position: relative;
+        }
+        
+        .section {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+        
+        .section img {
+            max-width: 150px;
+            margin: 0 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3);
+        }
+        
+        .section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #00d1ff;
+            text-align: center;
+            margin-bottom: 30px;
+            background: linear-gradient(to right, #ff4081, #00d1ff);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            color: #ff4081;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        a {
+            color: #00d1ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: #ff4081;
+        }
+        
+        .get-started-button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin-top: 30px;
+            background-color: #00d1ff;
+            color: white;
+            border-radius: 50px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        
+        .get-started-button:hover {
+            background-color: #ff4081;
+        }
+        /* New sections */
+        
+        .additional-info {
+            margin-top: 40px;
+        }
+        
+        .additional-info h2 {
+            font-size: 2em;
+            color: #00d1ff;
+            margin-bottom: 20px;
+        }
+        
+        .additional-info ul {
+            font-size: 1.2em;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .additional-info ul li {
+            margin-bottom: 15px;
+        }
+        
+        .additional-info ul li:before {
+            content: "✔️";
+            color: #ff4081;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="curved-background"></div>
+    <div class="content">
+        <h1>Detailed Information about Malware Analysis and Mitigation</h1>
+
+        <div class="section">
+            <img src="path_to_malware_analysis_image.jpg" alt="Malware Analysis">
+            <div>
+                <h2>Malware Analysis</h2>
+                <p>Malware analysis is the process of understanding the behavior and purpose of a suspicious file or URL. The analysis is usually performed using various tools and techniques to dissect the malware, observe its behavior, and understand its
+                    purpose.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <img src="path_to_types_of_malware_image.jpg" alt="Types of Malware">
+            <div>
+                <h2>Types of Malware Analysis</h2>
+                <p>There are three types of malware analysis that can be conducted: Static malware analysis, Dynamic malware analysis, and Hybrid malware analysis.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <img src="path_to_malware_detection_image.jpg" alt="Malware Detection">
+            <div>
+                <h2>Malware Detection</h2>
+                <p>Malware detection involves identifying and isolating malicious software. Techniques include signature-based detection, heuristic analysis, and behavioral analysis. Modern antivirus software often combines these methods for effective detection.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <img src="path_to_mitigation_strategies_image.jpg" alt="Mitigation Strategies">
+            <div>
+                <h2>Mitigation Strategies</h2>
+                <p>Mitigation involves steps to minimize the impact of malware. This includes isolating infected systems, removing malicious files, applying security patches, and restoring affected data from backups. Regular updates and strong security measures
+                    can help prevent future infections.</p>
+            </div>
+        </div>
+
+        <div class="additional-info">
+            <h2>Features of Malware Analysis and Mitigation</h2>
+            <ul>
+                <li>Real-time monitoring and alerts</li>
+                <li>Comprehensive threat assessment reports</li>
+                <li>Automated threat detection and response</li>
+                <li>Cross-platform compatibility</li>
+                <li>Advanced heuristic and behavioral analysis</li>
+            </ul>
+
+            <h2>What We Offer:</h2>
+            <ul>
+                <li>Comprehensive malware scanning and detection</li>
+                <li>Detailed analysis reports</li>
+                <li>Effective mitigation strategies</li>
+                <li>Continuous monitoring services</li>
+                <li>Expert consultation and support</li>
+            </ul>
+
+            <h2>Your Security, Our Priority</h2>
+            <p>At Threat Remedy, we prioritize your security above all else. Our expert team is dedicated to keeping your systems safe from the latest threats. With our comprehensive malware analysis and mitigation services, you can trust that your digital
+                assets are in good hands.</p>
+        </div>
+
+        <a href="/" class="get-started-button">Get Back</a>
+    </div>
+</body>
+
+</html>
